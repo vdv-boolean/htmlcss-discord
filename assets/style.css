@@ -87,6 +87,39 @@ h1, p, .browser {
 
 /* main */
 
+.jumbo .content {
+
+	min-height: 250px;
+}
+
+.section-feature .image {
+	min-height: 250px;
+}
+
+.one {
+	background-image: url(../img/item1.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height:500px;
+	background-size: contain;
+}
+
+.two {
+	background-image: url(../img/item2.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height:500px;
+	background-size: contain;
+}
+
+.three {
+	background-image: url(../img/item3.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height:500px;
+	background-size: contain;
+}
+
 main section {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
