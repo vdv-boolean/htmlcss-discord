@@ -73,7 +73,7 @@ header h1, header p, .browser {
 }
 
 
-.download, .browser {
+.download, .browser, .registrati {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     padding: 1em;
@@ -159,12 +159,30 @@ footer {
 	padding-bottom: 2rem;
 	background-color: #23272a; 
 }
+h3, h4 {
+	color: #7289da ;
+}
 
+h3 {
+	font-size: 2em;
+}
+
+h3, h4 , li {
+	margin-bottom: 0.5em;
+}
+
+span, li {
+	color: white;
+}
+
+ li {
+	list-style: none;
+ }
 footer .footer-top {
 	display: flex;
 	margin-bottom: 2rem;
 	padding-bottom: 2rem;
-	border-bottom: 3px solid white; /* TODO: check value */
+	border-bottom: 2px solid  #7289da;
 }
 
 footer .column-socials {
@@ -178,4 +196,8 @@ footer .column-links {
 footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
+}
+
+.registrati {
+	background-color: #7289da;
 }
