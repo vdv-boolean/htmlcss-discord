@@ -17,8 +17,8 @@
 /* header */
 
 .navbar {
-	height: 4rem; /* TODO: check the value */
-	background-color: cyan; /* TODO: check the value */
+	height: 4rem; 
+	background-color: #255ee9; 
 }
 
 .navbar .container {
@@ -33,10 +33,13 @@
 	list-style: none;
 	height: 100%;
 }
+
 .main-list a {
 	display: flex;
 	align-items: center;
 	height: 100%;
+	text-decoration: none;
+	color: white;
 
 }
 
@@ -73,7 +76,7 @@ header h1, header p, .browser {
 }
 
 
-.download, .browser, .registrati {
+.download, .browser, .registrati, .accedi {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     padding: 1em;
@@ -200,4 +203,5 @@ footer .footer-bottom {
 
 .registrati {
 	background-color: #7289da;
+	color: white;
 }
