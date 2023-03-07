@@ -189,19 +189,27 @@ footer .footer-top {
 }
 
 footer .column-socials {
-	flex: 0 0 40%;
+	flex: 0 0 20%;
 }
 
 footer .column-links {
-	flex: 0 0 15%;
+	flex: 0 0 20%;
+}
+.ita {
+height: 1em;
 }
 
 footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
+	height: 50%;
 }
 
 .registrati {
 	background-color: #7289da;
+	color: white;
+}
+
+#color {
 	color: white;
 }
