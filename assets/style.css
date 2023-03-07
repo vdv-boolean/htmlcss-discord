@@ -69,8 +69,9 @@
 
 header h1, header p, .browser {
 	color: white;
-	text-align: center;
+
 }
+
 
 .download, .browser {
     margin-top: 0.5em;
@@ -89,10 +90,6 @@ header h1, header p, .browser {
 
 .jumbo .content {
 
-	min-height: 250px;
-}
-
-.section-feature .image {
 	min-height: 250px;
 }
 
@@ -123,7 +120,9 @@ header h1, header p, .browser {
 h2 {
 	font-size: 3em;
 }
-
+.section-full {
+	text-align: center;
+}
 main section {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -138,7 +137,8 @@ main section {
 }
 
 .bkg-gray {
-	background-color: lightslategrey; /* TODO: check value */
+	background-color: #f6f6f6; 
+
 }
 
 .section-feature .image {
@@ -148,13 +148,16 @@ main section {
 .section-feature .text {
 	flex: 0 0 40%;
 }
-
+.dark {
+	background-color: #7289da;
+	color: white;
+}
 /* footer */
 
 footer {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
-	background-color: black; /* TODO: check value */
+	background-color: #23272a; 
 }
 
 footer .footer-top {
