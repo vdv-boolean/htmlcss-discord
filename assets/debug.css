@@ -2,13 +2,11 @@
 	background-color: gold;
 }
 
-.jumbo {
-	background-color: blue;
-}
+
 
 .jumbo .content {
-	background-color: salmon;
-	min-height: 250px;
+	/* background-color: salmon; */
+	/* min-height: 250px; */
 }
 
 .section-feature .image {
