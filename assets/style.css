@@ -67,7 +67,7 @@
 	background-size: contain;
 }
 
-h1, p, .browser {
+header h1, header p, .browser {
 	color: white;
 	text-align: center;
 }
@@ -118,6 +118,10 @@ h1, p, .browser {
 	background-position: center;
 	height:500px;
 	background-size: contain;
+}
+
+h2 {
+	font-size: 3em;
 }
 
 main section {
